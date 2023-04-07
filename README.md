@@ -4,4 +4,4 @@
 
 ### лични портфолио
 
-\*\* Julio Angel Molina Nuñez
+Desarrollador: Julio Angel Molina Nuñez
