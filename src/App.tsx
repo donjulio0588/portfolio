@@ -11,18 +11,7 @@ function App() {
   return (
     <>
       <MainNavBar />
-      
-      <div className="container mt-2 d-flex justify-content-end">
-        {/* <Languages /> */}
-        
-      </div>
-      
-
-      {/* <Hero />
-
-      <NotifTest />
-
-      <Footer /> */}
+      <Hero />
     </>
   )
 }

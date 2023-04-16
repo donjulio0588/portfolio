@@ -1,19 +1,32 @@
 import heroImage from "../assets/hero1.jpg"
 
+
 const Hero = () => {
     
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${heroImage})` }}>
-        <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-neutral-content border-2">
-            <div className="max-w-md">
-                <p className="mb-5 text-9xl font-bold">I'm a</p>
-                <p className="mb-5 text-9xl font-bold">web developer</p>
-                <p className="mb-5">Also passiones about video games.</p>
-                <button className="btn btn-primary">Get Started</button>
+        <div className="text-light vh-100">
+
+            <div className="hero-bg-image">
+                {/* <div className="bg-black opacity-50"></div>
+                <img className="hero-img" src={heroImage} /> */}
             </div>
+
+            <div className="hero-text">
+                <h2 className="bigger-text main-text-first-line">I'm a</h2>
+                <h2 className="bigger-text mt-2">web developer</h2>
+                <p className="mt-3">Also passioned about video games.</p>
+
+                <div className="mt-4 position-relative">
+                    <button className="btn btn-outline-primary d-flex align-items-center">
+                        <i className="bi bi-question-circle fs-2 text-light pe-2"></i>
+                        sobre mi
+                    </button>
+                    <p className="position-absolute fixed-top mt-3 ms-5"></p>
+                </div>
+            </div>
+
         </div>
-        </div>
+        
     )
 
 }

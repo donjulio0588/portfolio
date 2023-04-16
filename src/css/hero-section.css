@@ -1,0 +1,39 @@
+.hero-bg-image {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hero1.jpg");
+
+   /* Set a specific height */
+   height: 50%;
+ 
+   /* Position and center the image to scale nicely on all screens */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.bigger-text {
+  /* font-size: 10vw; */
+  font-weight: bold;
+  /* letter-spacing: -.1rem; */
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  /* left: 38%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+h2 {
+  margin: -1rem 0;
+}
+.main-text-first-line { color: rgb(58, 57, 57); }
+
+.about-me-btn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0;
+  background-color: purple;
+}
